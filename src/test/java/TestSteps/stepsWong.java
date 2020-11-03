@@ -24,8 +24,8 @@ public class stepsWong {
 
     @Before
     public void ejecutarStep(){
-//        System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+//        System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver/geckodriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver/chromedriver.exe");
 //        driver = new FirefoxDriver();
         driver = new ChromeDriver();
         //properties
